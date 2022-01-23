@@ -11,7 +11,7 @@ class LanguageService {
         return getRequestApi(`${LANGUAGES_BASE_API_URL}/${languageId}`);
     }
 
-    createLanguage(language){
+    createLanguage = (language) => {
         return postRequestApi(`${LANGUAGES_BASE_API_URL}`, language);
     }
 
